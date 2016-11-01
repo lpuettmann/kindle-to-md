@@ -37,7 +37,7 @@ if not ixBook:
 
 else:
 	# Form a title that can be displayed as URL
-	saveStr = bookStr.replace(' ', '-').lower()
+	saveStr = bookStr.lower()
 	saveStr = saveStr.replace(' ', '-')
 	saveStr = saveStr.replace('ä', 'ae')
 	saveStr = saveStr.replace('ö', 'oe')
