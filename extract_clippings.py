@@ -10,8 +10,7 @@ assert(len(bookStr) > 1)
 
 f = open('My Clippings.txt', 'r')
 fileCont = f.read()
-exStr = fileCont
-strList = exStr.splitlines()
+strList = fileCont.splitlines()
 nrLines = len(strList)
 
 # Find beginning of clippings in the document
